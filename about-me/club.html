@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Учебный клуб - Главная страница</title>
+</head>
+<body>
+    <header>
+        <nav aria-label="Основная навигация">
+        <ul>
+            <li><a href="index.html">Обо мне</a></li>
+            <li><a href="hobby.html">Мои увлечения</a></li>
+            <li><a href="college.html">Мой колледж</a></li>
+            <li><a href="application.html">Заявка</a></li>
+            <li><a href="schedule.html">Расписание</a></li>
+            <li><a href="club.html">Клуб</a></li>
+        </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Учебный клуб</h1>
+        <section>
+            <h2>О клубе</h2>
+            <p>Наш учебный клуб обьединяет студентов, увлеченных веб-разработкой и современными технологиями. Мы проводим еженедельные встречи, разбираем сложные задачи и помогаем друг другу в создании учебных проектов</p>
+        </section>
+            <div>
+                <table>
+                    <caption>Расписание ближайших встреч клуба</caption>
+                    <thead>
+                        <tbody>
+                            <tr>
+                                <td>Понедельник</td>
+                                <td>Основы семантической верстки</td>
+                                <td>Аудитория 204</td>
+                                </tr>
+                        </tbody>
+                </table>
+            </div>
+            <div>
+                <p><strong>Внимание:</strong>все вводимые данные являются вымышленными и никуда не сохраняются</p>
+                <form action="club.html" method="get">
+                    <div>
+                        <label for="student-name">Ваше имя:</label>
+                        <input type="text" id="student-name" name="student_name" required>
+                    </div>
+                    <div>
+                        <label for="topic-select">Выберите направление:</label>
+                        <select id="topic-select" name="topic" required>
+                            <option value="">-- Выберите вариант --</option>
+                            <option value="html">HTML и семантика</option>
+                            <option value="css">Стилизация и CSS</option>
+                            </select>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="agree-rules" name="agree" value="yes">
+                        <label for="agree-rules">Согласен с правилами учебного клуба</label>
+                    </div>
+                    <div>
+                        <button type="submit">Отправить заявку</button>
+                    </div>
+                    </form>
+            </div>
+    </main>
+    <footer>
+        <p>2026 Учебный клуб. Учебный проект</p>
+    </footer>
+</body>
+</html>
