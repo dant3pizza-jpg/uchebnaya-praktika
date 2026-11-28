@@ -1,0 +1,54 @@
+body {
+    color: #243142;
+    background-color: #f5f7fa;
+}
+
+p {
+    color: #17365d;
+}
+
+h1 {
+    color: #17365d;
+}
+
+.site-note {
+    font-style: italic;
+}
+
+#top {
+    letter-spacing: 0.03em;
+}
+
+nav a {
+    color: #0b5cab;
+}
+nav a:hover {
+    color: #8a2c2c;
+}
+
+.main-nav a {
+    color: #0b5cab;
+}
+.page-footer p {
+    color: #243142;
+}
+.external-link {
+    color: #8a2c2c;
+}
+.main-nav a:focus {
+    outline: 2px solid #17365d;
+    outline-offset: 3px;
+}
+h1,h2 {
+    color: #17365d;
+}
+.news {
+    color: #243142;
+}
+.explanation {
+    color: #8a2c2c;
+}
+.main-nav a:focus {
+    outline: 2px solid #17365d;
+    outline-offset: 3px;
+}

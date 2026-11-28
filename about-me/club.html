@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Учебный клуб - Главная страница</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -19,10 +20,10 @@
         </nav>
     </header>
     <main>
-        <h1>Учебный клуб</h1>
+        <h1 id="top">Учебный клуб</h1>
         <section>
             <h2>О клубе</h2>
-            <p>Наш учебный клуб обьединяет студентов, увлеченных веб-разработкой и современными технологиями. Мы проводим еженедельные встречи, разбираем сложные задачи и помогаем друг другу в создании учебных проектов</p>
+            <p class="site-note">Наш учебный клуб обьединяет студентов, увлеченных веб-разработкой и современными технологиями. Мы проводим еженедельные встречи, разбираем сложные задачи и помогаем друг другу в создании учебных проектов</p>
         </section>
             <div>
                 <table>
@@ -49,7 +50,8 @@
                         <select id="topic-select" name="topic" required>
                             <option value="">-- Выберите вариант --</option>
                             <option value="html">HTML и семантика</option>
-                            <option value="css">Стилизация и CSS</option>
+                            <option value="css">С
+                                +тилизация и CSS</option>
                             </select>
                     </div>
                     <div>
@@ -62,8 +64,9 @@
                     </form>
             </div>
     </main>
-    <footer>
+    <footer class="page-footer">
         <p>2026 Учебный клуб. Учебный проект</p>
     </footer>
+    <a href="https://example.com" class="external-link"></a>
 </body>
 </html>
